@@ -1,5 +1,5 @@
 window.onload = function() {
-    var isApp = "standalone" in window.navigator && window.navigator.standalone || true;
+    var isApp = "standalone" in window.navigator && window.navigator.standalone;
     var eHome = document.getElementById("home");
     var eApp = document.getElementById("app");
 
